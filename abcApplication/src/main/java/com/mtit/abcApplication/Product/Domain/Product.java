@@ -1,4 +1,4 @@
-package com.mtit.abcApplication.entity;
+package com.mtit.abcApplication.Product.Domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -13,14 +13,13 @@ import javax.persistence.Table;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "CUSTOMER")
+@Table(name = "PRODUCT")
+public class Product {
 
-public class Customer {
     @Id
     @GeneratedValue
-
     private int id;
     private String name;
-    private String address;
-    private int phone;
+    private int quantity;
+    private double price;
 }

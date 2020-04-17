@@ -1,7 +1,7 @@
 package com.mtit.abcApplication.service;
 
-import com.mtit.abcApplication.entity.Product;
-import com.mtit.abcApplication.repository.ProductRepository;
+import com.mtit.abcApplication.Product.Domain.Product;
+import com.mtit.abcApplication.Product.repo.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

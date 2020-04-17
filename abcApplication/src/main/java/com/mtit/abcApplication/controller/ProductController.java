@@ -1,6 +1,6 @@
 package com.mtit.abcApplication.controller;
 
-import com.mtit.abcApplication.entity.Product;
+import com.mtit.abcApplication.Product.Domain.Product;
 import com.mtit.abcApplication.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
