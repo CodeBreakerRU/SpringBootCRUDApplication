@@ -42,13 +42,4 @@ public class ProductService {
         return "product removed !! " + id;
     }
 
-    public Product updateProduct(Product product) {
-        Product existingProduct = repository.findById(product.getId()).orElse(null);
-        existingProduct.setName(product.getName());
-        existingProduct.setQuantity(product.getQuantity());
-        existingProduct.setPrice(product.getPrice());
-        return repository.save(existingProduct);
-    }
-
-
 }
